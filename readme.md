@@ -11,9 +11,6 @@ Instalación
 Clona este repositorio en tu máquina local.
 
 
-git clone https://github.com/tu-usuario/api-analisis-datos.git
-Instala las dependencias necesarias.
-
 
 cd api-analisis-datos
 npm install
