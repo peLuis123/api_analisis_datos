@@ -69,13 +69,22 @@ Esta ruta permite generar un gráfico lineal que muestra la evolución de una ca
 caracteristica: en este caso puede ser dato1, dato2, dato3 o dato4 segun nuestra base de datos utilizada
 
 documentacion con Swagger
+
 ![Descripción de la imagen](./images/swagger.png)
 
 POST /convertir-y-guardar
+
 ![Descripción de la imagen](./images/ruta2.png)
 
+base de datos de POST /convertir-y-guardar
+
+![Descripción de la imagen](./images/ruta2bd.png)
+
+
 GET /grafico-linea/dato1
+
 ![Descripción de la imagen](./images/dato1.png)
 
 GET /grafico-linea/dato2
+
 ![Descripción de la imagen](./images/dato2.png)
