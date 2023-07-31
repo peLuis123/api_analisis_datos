@@ -23,10 +23,15 @@ Rutas
 La API cuenta con las siguientes rutas:
 
 POST /convertir-y-guardar: Convierte un archivo Excel (XLSX) a formato JSON y guarda los datos en Firebase Firestore en la colección "datos".
+
 POST /convertir-y-guardar-clases: Convierte un archivo Excel (XLSX) a formato JSON y guarda los datos en Firebase Firestore, agrupándolos por etiquetas en colecciones separadas.
+
 GET /tabla-conteo: Obtiene un conteo de la cantidad de elementos por etiqueta a partir de los datos almacenados en Firebase Firestore.
+
 GET /grafico-circular: Genera un gráfico circular (pie chart) que muestra la distribución de clases en el conjunto de datos almacenados en Firebase Firestore.
+
 Uso
+
 Para convertir un archivo Excel a formato JSON y guardar los datos en Firebase Firestore, utiliza las rutas /convertir-y-guardar o /convertir-y-guardar-clases. Asegúrate de enviar el archivo Excel en la solicitud y especificar el número de hoja a procesar (en caso de ser necesario).
 
 Para obtener un conteo de la cantidad de elementos por etiqueta a partir de los datos almacenados en Firebase Firestore, utiliza la ruta /tabla-conteo.
